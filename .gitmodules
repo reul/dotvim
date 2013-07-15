@@ -13,3 +13,6 @@
 [submodule "bundle/todo.txt-vim"]
 	path = bundle/todo.txt-vim
 	url = https://github.com/freitass/todo.txt-vim
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
