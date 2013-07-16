@@ -16,3 +16,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-vividchalk"]
+	path = bundle/vim-vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git
+[submodule "bundle/vim-distinguished"]
+	path = bundle/vim-distinguished
+	url = https://github.com/Lokaltog/vim-distinguished.git
