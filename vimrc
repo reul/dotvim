@@ -1,9 +1,9 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set number
 set list
 set bg=dark
-colo distinguished
 
 "always use spaces
 set expandtab
@@ -12,8 +12,9 @@ set softtabstop=4
 set shiftwidth=4
 
 "set textwidth and color last column
-set textwidth=100
-set colorcolumn=100
+set textwidth=140
+set colorcolumn=140
 
+set hlsearch
 
 "vim: syntax=vimrc
