@@ -17,4 +17,7 @@ set colorcolumn=140
 
 set hlsearch
 
+"automatically remove trailing whitespaces on save
+autocmd BufWritePre * :%s/\s\+$//e
+
 "vim: syntax=vimrc
