@@ -28,3 +28,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/play2vim"]
+	path = bundle/play2vim
+	url = https://github.com/gre/play2vim.git
