@@ -20,4 +20,15 @@ set hlsearch
 "automatically remove trailing whitespaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+"keep nerdtree open
+let NERDTreeQuitOnOpen = 0
+
+function! StartUp()
+    if 0 == argc()
+        NERDTree
+    end
+endfunction
+
+autocmd VimEnter * call StartUp()
+
 "vim: syntax=vimrc
