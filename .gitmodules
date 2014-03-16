@@ -25,9 +25,6 @@
 [submodule "bundle/vim-distinguished"]
 	path = bundle/vim-distinguished
 	url = https://github.com/Lokaltog/vim-distinguished.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = git://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/play2vim"]
 	path = bundle/play2vim
 	url = https://github.com/gre/play2vim.git
@@ -52,3 +49,6 @@
 [submodule "bundle/ag"]
 	path = bundle/ag
 	url = https://github.com/rking/ag.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git

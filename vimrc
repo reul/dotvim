@@ -12,6 +12,9 @@ set number
 "display space characters
 set list
 
+"don't wrap long lines
+set nowrap
+
 "dark bg
 set bg=dark
 
@@ -43,6 +46,15 @@ function! StartUp()
         NERDTree
     end
 endfunction
+
+"map F3 to nerdtree
+silent! map <F3> :NERDTreeFind<CR>
+
+"map F4 to tagbar
+nmap <F4> :TagbarToggle<CR>
+
+
+let g:NERDTreeMapActivateNode="<F3>"
 
 autocmd VimEnter * call StartUp()
 
