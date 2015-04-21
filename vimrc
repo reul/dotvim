@@ -57,6 +57,7 @@ nmap <F4> :TagbarToggle<CR>
 let g:NERDTreeMapActivateNode="<F3>"
 
 autocmd VimEnter * call StartUp()
+set directory=~/tmp//,.,/var/tmp//,/tmp//
 
 "vim: syntax=vimrc
 
