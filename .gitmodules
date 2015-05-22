@@ -57,5 +57,5 @@
 	url = https://github.com/vimoutliner/vimoutliner
 	ignore = dirty
 [submodule "/home/tiago/.vim/bundle/vim-airline"]
-	path = /home/tiago/.vim/bundle/vim-airline
+	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
