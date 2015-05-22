@@ -55,3 +55,7 @@
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = https://github.com/vimoutliner/vimoutliner
+	ignore = dirty
+[submodule "/home/tiago/.vim/bundle/vim-airline"]
+	path = /home/tiago/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline

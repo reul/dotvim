@@ -59,5 +59,7 @@ let g:NERDTreeMapActivateNode="<F3>"
 autocmd VimEnter * call StartUp()
 set directory=~/tmp//,.,/var/tmp//,/tmp//
 
+colo distinguished
+
 "vim: syntax=vimrc
 
