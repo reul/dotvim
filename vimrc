@@ -16,7 +16,7 @@ set list
 set nowrap
 
 "dark bg
-set bg=dark
+"set bg=dark
 
 "always use spaces
 set expandtab
@@ -59,7 +59,16 @@ let g:NERDTreeMapActivateNode="<F3>"
 autocmd VimEnter * call StartUp()
 set directory=~/tmp//,.,/var/tmp//,/tmp//
 
-colo distinguished
+"colo distinguished
+
+" enable all Python syntax highlighting features
+let python_highlight_all = 1
+
+" show a visual line under the cursor's current line
+"set cursorline
+
+" show the matching part of the pair for [] {} and ()
+set showmatch
 
 "vim: syntax=vimrc
 
