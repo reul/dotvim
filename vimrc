@@ -70,5 +70,6 @@ let python_highlight_all = 1
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
+colo distinguished
 "vim: syntax=vimrc
 

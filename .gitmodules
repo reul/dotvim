@@ -59,3 +59,12 @@
 [submodule "/home/tiago/.vim/bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "/home/tiago/.vim/bundle/kotlin-vim"]
+	path = /home/tiago/.vim/bundle/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim
+[submodule "/home/tiago/.vim/bundle/vim-android"]
+	path = /home/tiago/.vim/bundle/vim-android
+	url = git@github.com:hsanson/vim-android.git
+[submodule "bundle/goyo"]
+	path = bundle/goyo
+	url = https://github.com/junegunn/goyo.vim.git
